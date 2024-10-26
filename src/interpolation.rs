@@ -1,8 +1,8 @@
 // interpolation.rs
-
+// UNUSED, WILL LOOK AT IT LATER
 pub const MAP_N: usize = 1024;
 
-// Bilinear interpolation for height map
+// bilinear interpolation for height map
 pub fn get_height_interpolated(x: f32, y: f32, heightmap_data: &[u8]) -> f32 {
     let x0 = x.floor() as usize;
     let y0 = y.floor() as usize;
