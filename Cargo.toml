@@ -1,0 +1,10 @@
+[package]
+name = "voxelspacerust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+pixels = "0.12.0"
+winit = "0.28"
+image = "0.24"
+rfd = "0.15.0"
